@@ -1,0 +1,29 @@
+//a program to accept two numbers and print the greater value of the two
+//Ex2 
+import java.util.Scanner;
+public class Ex2 {
+
+	public static void main(String[] args) {
+		int N, O; // O alphabet
+		Scanner scan = new Scanner (System.in);
+		System.out.println("Print the greater value of the two numbers \n");
+		System.out.println("Enter a number: ");
+		N = scan.nextInt();
+		System.out.println("Enter a number: ");
+		O = scan.nextInt();
+		
+		if (N > O) {
+		System.out.println("Greater value is "+N);
+		}
+		else if (N > O){ 
+			System.out.println("Greater value is " +O);
+		}
+		else { // N == O
+			System.out.println("Two numbers are Equal");
+		}
+	}
+}
+
+/*By
+ *Dinesh kumar G
+ *202101191*/
