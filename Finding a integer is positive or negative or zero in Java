@@ -1,5 +1,5 @@
 //a program to accept a number N and print whether it is positive, negative or zero
-//java
+//Ex1
 import java.util.Scanner;
 
 public class Ex1 
@@ -24,3 +24,6 @@ public class Ex1
 		}		
 	}
 }
+/*by
+Dinesh Kumar G
+202101191*/
