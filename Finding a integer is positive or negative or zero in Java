@@ -1,0 +1,26 @@
+//a program to accept a number N and print whether it is positive, negative or zero
+//java
+import java.util.Scanner;
+
+public class Ex1 
+{
+	public static void main (String [] args) 
+	{	
+		int N;
+		Scanner scan = new Scanner (System.in);
+		System.out.println("Enter a number: ");
+		N = scan.nextInt();
+		if (N == 0) 
+		{
+			System.out.println("Zero");
+		}
+		else if (N > 0) 
+		{
+			System.out.println("Positive");
+		}
+		else if (N < 0)
+		{
+			System.out.println("Negative");
+		}		
+	}
+}
